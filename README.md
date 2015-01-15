@@ -17,8 +17,12 @@ Remember, **n** is not how many numbers in the fibonacci sequence, it is the **m
 
 There are **2** tests, once the first test passes, uncomment the last test and fill in the correct result.
 
-(you'll need jasmine-node)  
+### This exercise uses the Jasmine testing framework
+In your Terminal execute the command:
+
     npm install jasmine-node -g
 
-run automated tests by running  
+### Run automated tests
+in your Terminal execute the command:
+
     jasmine-node --autotest .
