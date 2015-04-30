@@ -1,4 +1,4 @@
-var challenge_2 = require('../challenge_2');
+var challenge_2 = require('./../even_fib_nums.js');
 var chai = require('chai');
 var should = chai.should;
 
