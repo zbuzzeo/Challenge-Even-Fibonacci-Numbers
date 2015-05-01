@@ -4,9 +4,14 @@ var should = chai.should();
 
 describe("Sum of even numbers in the Fibonnacci sequence", function () {
 
-  it("should return the sum of all even Fibonacci numbers when given 10", function () {
-    var sum = challenge_2.sumOfEvenFibonacciNumbers(10);
+  it("should return the sum of all even Fibonacci numbers when given 13", function () {
+    var sum = challenge_2.sumOfEvenFibonacciNumbers(13);
     sum.should.equal(10);
+  });
+
+  it("should return the sum of all even Fibonacci numbers when given 34", function () {
+    var sum = challenge_2.sumOfEvenFibonacciNumbers(34);
+    sum.should.equal(44);
   });
 
   // when your tests pass, uncomment the next test and
