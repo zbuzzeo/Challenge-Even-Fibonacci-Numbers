@@ -1,6 +1,6 @@
 var challenge_2 = require('./../even_fib_nums.js');
 var chai = require('chai');
-var should = chai.should;
+var should = chai.should();
 
 describe("Sum of even numbers in the Fibonnacci sequence", function () {
 
