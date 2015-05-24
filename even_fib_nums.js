@@ -12,3 +12,14 @@ module.exports = function( maxFibValue ) {
 
   return sum;
 };
+
+exports.highestFibonacciNumber = function(maxFibValue){
+  var highest = 0;
+
+  //define your base case, validate your input
+
+
+  //do your work here
+
+  return highest;
+};
