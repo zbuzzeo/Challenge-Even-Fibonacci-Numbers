@@ -5,8 +5,9 @@
  * @param  {Number} maxFibValue
  * @return {Number} sum
  */
-exports.sumOfEvenFibonacciNumbers = function(maxFibValue){
+module.exports = function( maxFibValue ) {
   var sum = 0;
+
   // do your work here
 
   return sum;
