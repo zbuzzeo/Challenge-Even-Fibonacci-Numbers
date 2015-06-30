@@ -16,12 +16,12 @@ Remember, `maxFibValue` is the **max** value of a fibonacci number, it is **NOT*
 You goal will be to sum up all the **Even Numbers* that are less than or equal to, but does not exceed, the `maxFibValue` given to you.
 
 ## Getting Started
-1. Clone this repository
-2. To retrieve all dependecies, run the command: `npm install`
+1. Fork and Clone this repository
+2. To install all dependecies, run the command: `npm install`
 3. Your work will be done in the file named: `even_fib_nums.js`
 4. Run your test with the command: `npm test`
-5. There are two tests total, when you are done with one un-comment the other.
-6. The second test is broken, fix it!
+5. When you are done with the first 2 tests, un-skip the other by deleting `.skip`.
+6. The third test is broken, fix it!
 
 ## Caveats
 
