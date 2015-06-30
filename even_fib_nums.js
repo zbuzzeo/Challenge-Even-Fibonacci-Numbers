@@ -5,15 +5,21 @@
  * @param  {Number} maxFibValue
  * @return {Number} sum
  */
-module.exports = function( maxFibValue ) {
+module.exports = {
+  sumFibs : _sumFibs,
+  highestFibonacciNumber : _highestFibonacciNumber
+};
+
+function _sumFibs( maxFibValue ) {
   var sum = 0;
 
   // do your work here
 
   return sum;
-};
+}
 
-exports.highestFibonacciNumber = function(maxFibValue){
+// bonus round
+function highestFibonacciNumber (maxFibValue){
   var highest = 0;
 
   //define your base case, validate your input
