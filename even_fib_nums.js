@@ -14,7 +14,7 @@ function _sumFibs( maxFibValue ) {
 }
 
 // bonus round
-function highestFibonacciNumber (maxFibValue){
+function _highestFibonacciNumber (maxFibValue){
   var highest = 0;
 
   //define your base case, validate your input
