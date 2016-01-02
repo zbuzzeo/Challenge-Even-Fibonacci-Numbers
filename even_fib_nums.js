@@ -5,11 +5,6 @@
  * @param  {Number} maxFibValue
  * @return {Number} sum
  */
-module.exports = {
-  sumFibs : _sumFibs,
-  highestFibonacciNumber : _highestFibonacciNumber
-};
-
 function _sumFibs( maxFibValue ) {
   var sum = 0;
 
@@ -28,4 +23,13 @@ function highestFibonacciNumber (maxFibValue){
   //do your work here
 
   return highest;
+};
+
+/**
+ * Do not modify code below.
+ * You must be at least level 10 to understand.
+ */
+module.exports = {
+  sumFibs : _sumFibs,
+  highestFibonacciNumber : _highestFibonacciNumber
 };
